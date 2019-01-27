@@ -1,0 +1,54 @@
+.body-font-box-height{height:305px;
+margin-top: -5px;}
+
+.body-font-box-height .padding-div{padding: 0px 25px;}
+
+.body-font-box-height .col-md-12 {
+    padding: 0px 0;
+    height: 41px;
+    line-height: 72px;
+
+}
+
+.body-font-box-2{padding: 49px 0px !important;
+    padding-right: 38px !important;}
+
+    .body-font-box-height2{height: 342px;
+        margin-top: 5px;}
+
+        .body-font-box-height2 .padding-div{ padding: 3px 16px;}
+
+
+        .body-font-box-height2  .col-md-12 {
+            height: 49px;
+            line-height: 35px;
+        }
+       
+ .box-padding-2{padding: 38px 16px !important}
+ .box-padding-2 .col-md-12{ line-height: 67px;
+                            height: 52px;}
+
+
+                  .body-font-box-height .download-btn-div1 {
+                                top: 50px;
+                                height: 174px;
+                                padding: 0px 12px;
+                            }
+
+                            .body-font-box-height .download-btn-div1 p:nth-child(1) {
+                                text-align: left;
+                                direction: ltr;
+                                font-family: DubaiBold;
+                                font-size: 50px;
+                                margin-bottom: 0;
+                                padding-left: 25px;
+                                padding-top: 14px;
+                            }
+                            .body-font-box-height .download-btn-div1 .hr-style {
+                                margin-top: -14px;
+                                margin-bottom: 4px;
+                            }
+                            .mat-button, .mat-flat-button, .mat-icon-button, .mat-stroked-button {
+                                border-radius: 50px;
+                                
+                            }

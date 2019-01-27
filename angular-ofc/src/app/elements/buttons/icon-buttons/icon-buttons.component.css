@@ -1,0 +1,59 @@
+.button-div-height{height:auto;}
+.icon-btn-list-div{ padding: 50px 25px;}
+.btn-center-alignment{text-align: center;}
+
+.btn-icon-padding {
+    padding: 12px 58px !important;
+}
+.mat-button, .mat-flat-button, .mat-icon-button, .mat-stroked-button {
+    border-radius: 50px;
+    min-width: unset;
+    line-height: unset;
+}
+
+.btn-icon-height-1{margin-top:11px;}
+.btn-icon-height-2{margin-top: 14px;}
+.btn-icon-height-3{margin-top: -3px;
+    padding:3px 9px;}
+
+    .btn-div-allignment{height: 64px;}
+
+.icon-btn-heading-allignment{margin-bottom: 5px;
+    margin-top: 8px;}
+
+.icon-btn-full-width{padding: 13px !important;}
+
+
+.btn-without-bg{color:#555555;
+    margin-top: 16px;}
+
+.btn-without-bg:hover{background-color: transparent !important;
+                    text-decoration: underline;
+                color: #07c880 !important;}
+
+                .btn-without-bg2{color:#07c880 ;
+                    margin-top: 16px;}
+
+.btn-without-bg2:hover{background-color: transparent !important;
+                    text-decoration: underline;
+                color: #07c880 !important;}
+
+
+                .btn-div-5 {
+                    width: 100%;
+                    float: left;
+                    position: relative;
+                    border-bottom: 1px solid #eeeff3;
+                    margin-top: 32px;
+                    margin-bottom: 9px;
+                    padding-bottom: 18px;
+                }
+
+ .icon-btn-txt-font-size1{font-size: 17px !important;}   
+ .icon-btn-txt-font-size2{font-size: 14px !important;}   
+ .icon-btn-txt-font-size3{font-size: 12px !important;}  
+ .icon-btn-txt-font-size4{font-size: 10px !important;}    
+ 
+ .last-icon-alingnment{text-align: left;}
+ .icon-btn-style-2{color:#07c880;
+    margin-top: 11px;}

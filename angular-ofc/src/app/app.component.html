@@ -1,0 +1,25 @@
+<app-header></app-header>
+
+  <div class="main-content-div">
+      <div class="container main-content-bg header-container">
+        <div class="row">
+            <app-nav [style.width]="isActive ? '200px': '93px'"  [class]="!isActive ? 'nav-collapsed' : ''"></app-nav>
+            <div class="box-sub-content " [style.width]="isActive ? 'calc(100% - 200px)': 'calc(100% - 93px)'">
+                <div class="header-bar">
+                  <button type="button" class="slide-toggle menu-btn1" (click)="isActive = !isActive;"><i class="material-icons">menu</i></button>
+                  <div class="breadcrumb-div">
+                    <nav aria-label="breadcrumb">
+                      <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#"><i class="material-icons">home</i> الرئيسية<i class="material-icons"> keyboard_arrow_left </i></a> </li>
+                        <li class="breadcrumb-item"><a href="#" class="breadcrumb-active">العناوين الافتراضية </a></li>
+                      </ol>
+                    </nav>
+                  </div>
+                </div>
+               
+                <router-outlet></router-outlet>
+              </div>
+              <app-ngx-editor [placeholder]="'Enter text here...'" [spellcheck]="true" [(ngModel)]="htmlContent"></app-ngx-editor>
+        </div>
+      </div>
+  </div>  

@@ -1,0 +1,105 @@
+.button-div-height{height:auto;}
+
+.btn-div-allignment {
+    padding-bottom: 0;
+    float: right;
+    width: 100%;
+    height: 63px;
+    padding-top: 22px;
+}
+
+
+.first-btn-row{    padding: 10px 29px;
+    width: 100%;}
+
+.btn-div-allignment-fullwidth {
+    padding-bottom: 0;
+    float: right;
+    width: 100%;
+    height: 64px;
+    padding-top: 0px;
+    margin-top: -4px;
+    margin-bottom: 5px;
+}
+
+.btn-padding {
+    padding: 15px 29px!important;
+    width: 100%;
+}
+
+.btn-width-2 .btn-padding2{width: 80%;
+                            }
+
+ .btn-width-2{text-align: center;}                         
+
+
+
+
+ .btn-width-3 .btn-padding3{width: 60%;
+ }
+
+.btn-width-3{text-align: center;}  
+
+
+.btn-width-4 .btn-padding3{width: 60%;
+}
+
+.btn-width-4{text-align: center;}  
+
+
+.btn-center-alignment{text-align: center;}
+
+.btn-height-1{margin-top: 11px;}
+.btn-height-2{margin-top: 12px;}
+.btn-height-3{margin-top: -3px;
+    padding: 3px 9px;}
+
+
+    .txt-color-2{color: #07c880 !important;}
+
+    .txt-decoration {
+        text-decoration: none !important;
+        color: #555;
+        padding: 4px 0px !important;
+    }
+
+
+    .btn-padding5{
+        padding: 10px 29px!important;
+        width: 100%;
+        margin-top: 9px;
+    } 
+
+
+.mat-button, .mat-flat-button, .mat-icon-button, .mat-stroked-button {
+    border-radius: 50px;
+    min-width: unset;
+    line-height: unset;
+}
+
+
+.btn-without-bg{color:#555555;
+    margin-top: 16px;}
+
+.btn-without-bg:hover{background-color: transparent !important;
+                    text-decoration: underline;
+                color: #07c880 !important;}
+
+                .btn-without-bg2{color:#07c880 ;
+                    margin-top: 16px;}
+
+.btn-without-bg2:hover{background-color: transparent !important;
+                    text-decoration: underline;
+                color: #07c880 !important;}
+
+
+
+                .icon-btn-txt-font-size1{font-size: 17px !important;}   
+                .icon-btn-txt-font-size2{font-size: 14px !important;}   
+                .icon-btn-txt-font-size3{font-size: 12px !important;}  
+                .icon-btn-txt-font-size4{font-size: 10px !important;}    
+                
+                .last-icon-alingnment{text-align: left;}
+                .icon-btn-style-2{color:#07c880;
+                   margin-top: 11px;}
+

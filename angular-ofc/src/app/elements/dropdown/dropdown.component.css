@@ -1,0 +1,38 @@
+.dropdown-div-height1{height: 269px !important;
+    padding: 48px 25px !important;}
+
+    .btn-padding {
+        padding: 16px 50px!important;
+    }
+
+    .btn-padding2 {
+        padding: 10px 43px!important;
+        margin-top: 5px;
+    }
+
+    .btn-padding3 {
+        padding: 6px 24px!important;
+    }
+
+.dropdown-style{text-align: center;}
+
+    .dropdown-div-style2{text-align: center;}
+
+   .dropdown-bg-transparent{background-color: transparent;
+                        box-shadow: none;
+                        padding: 42px 56px;}
+
+     .dropdown-bg-transparent .dropdown-div-style2{ margin-top: -11px;
+                        margin-bottom: 36px;}
+
+
+
+     .dropdown-bg-transparent .dropdown-open-style {height: 152px;}    
+     .dropdown-bg-transparent .drop-down-padding2 {
+        padding: 12px 51px;
+    }           
+    
+    
+    .drop-down-page-bottom-div{height: 146px;
+        margin-top: 16px;}
+

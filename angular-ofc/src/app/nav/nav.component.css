@@ -1,0 +1,15 @@
+.box{
+    padding: 0; 
+    width: 100%;
+    text-align: center;
+    overflow: visible;
+}
+ng-material-multilevel-menu{
+    width: 100%;
+}
+.mat-list-item-content{
+    padding: 0;
+}
+*{
+    color: red;
+}

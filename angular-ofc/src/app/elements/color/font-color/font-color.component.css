@@ -1,0 +1,28 @@
+.grid-color-box-height{  height:268px;}
+.grid-style-height{    height: 408px;
+    margin-top: 0;}
+.grid-style-height2{    height: 408px;
+    margin-top: 0;
+}
+.font-color-div {
+    top: 15px!important;
+    width: 162px;
+    left: 5px;
+    height: 177px !important;
+}
+
+.font-color-div p:nth-child(1) {
+ 
+    padding-left: 22px;
+    padding-top: 5px;
+}
+
+
+.font-color-div .hr-style {
+    margin-top: -12px;
+    margin-bottom: 4px;
+}
+.mat-button, .mat-flat-button, .mat-icon-button, .mat-stroked-button {
+    border-radius: 50px;
+    
+}

@@ -1,0 +1,55 @@
+/* You can add global styles to this file, and also import other style files */
+.img-responsive {
+    max-width: 100%;
+}
+app-nav{
+    position: relative;
+    transition: 0.3s;
+    z-index: 1;
+}
+.amml-icon{
+    margin: 0 0 0 10px;
+}
+.mat-list .mat-list-item .mat-list-item-content{
+    padding: 0;
+}
+.nav-collapsed .label {
+    width: 0;
+    overflow: hidden;
+}
+.label{
+    text-align: right;
+    width: 100%;
+    font-size: 14px;
+    font-family: bukraregular;
+    transition: transform 0.3s;
+}
+.right-user-img{
+    transition: 0.3s;
+
+}
+.nav-collapsed .right-user-img{
+    width: 70px;
+}
+.amml-submenu {
+    margin-left: 0;
+}
+.mat-list-item{
+    color: #969696;
+}
+.mat-list-item:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 6px;
+    height: 0;
+    background: #018452;
+    transition: 0.15s;
+}
+.selected-amml-item:before {
+    height: 100%;
+}
+.ng-trigger-slideInOut {
+    background: #eee;
+}

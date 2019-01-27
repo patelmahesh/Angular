@@ -1,0 +1,151 @@
+.mat-button, .mat-flat-button, .mat-icon-button, .mat-stroked-button {
+    border-radius: 50px;
+    min-width: unset;
+    line-height: unset;
+}
+
+.btn-center-alignment{text-align: center;}
+
+.div-1{margin-top: 2px;
+    height: 351px;}
+
+
+.add-btn-bg{padding: 0;}
+
+.div-1 .btn-div-allignment2 {
+    padding-bottom: 21px;
+    margin-top: 10px;
+}
+
+.div-1 .round-btn3 {
+    width: 16px;
+    height: 16px;
+    padding: 0 !important;
+    line-height: 15px !important;
+    margin-top: 14px;
+}
+
+.add-icon-font-size1{font-size: 42px;}
+.add-icon-font-size2{font-size: 36px;}
+.add-icon-font-size3{font-size: 32px;}
+.add-icon-font-size4{font-size: 24px;}
+.add-icon-font-size5{font-size: 22px;}
+.add-icon-font-size6{font-size: 18px;}
+.add-icon-font-size7{font-size: 16px;}
+.add-icon-font-size8{font-size: 12px;}
+.add-icon-font-size9{font-size: 11px;}
+.add-icon-font-size10{font-size: 8px;}
+
+.mat-icon{width: auto;}
+
+.btn-padding6 {
+    padding: 11px 80px!important;
+}
+
+.btn-white-color{color: #0ca26f;}
+
+.download-btn-div{height: auto !important;
+margin-top: -4px !important;}
+
+.download-btn-div .material-icons{font-size: 63px;}
+
+.btn-group2 .mat-button-toggle-group{box-shadow: none;}
+
+.btn-group2 .mat-button-toggle{ padding:11px 36px;}
+
+.btn-group2 .btn-white-round.active span{padding-top: 0;}
+
+.btn-group2 .btn-icon {
+    float: right;
+    padding-left: 3px;
+    font-size: 23px !important;
+    position: relative;
+    top:8px;
+}
+
+.download-icon{padding: 10px 10px 13px}
+
+
+.btn-group3 .mat-button-toggle-group{box-shadow: none ;}
+
+.btn-group3 .mat-button-toggle{ padding:11px 36px;}
+
+.dp-button-success-btn-group {
+	background: linear-gradient(to bottom, rgba(7,199,129,1) 0, rgba(12,162,112,1) 100%)!important;
+filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#07c781', endColorstr='#0ca270', GradientType=0 );
+	color: #fff;
+	font-size: 13px;
+
+	border-color: transparent;
+	box-shadow: none;
+	outline: 0!important;
+	border: none;
+}
+
+.btn-group3 .btn-white-round.active span{padding-top: 0;}
+
+.btn-group3 .btn-icon {
+    float: right;
+    padding-left: 3px;
+    font-size: 23px !important;
+    position: relative;
+    top:8px;
+}
+
+.btn-group1 .mat-button-toggle-group{box-shadow: none ;}
+
+
+.btn-group1 .dp-button-success-round {
+    padding: 10px 29px;
+    width: 50%;
+    padding-top: 3px;
+}
+
+.btn-group1 .btn-sucess-round{ padding: 10px 29px;
+    padding-top: 3px;}
+
+    .grid-style3 {
+        background-color: transparent;
+        box-shadow: none;
+        margin-top: -12px;
+    }
+
+    .grid-style3  h3{margin-bottom: 0px;}
+
+    .text-bottom-margin {
+        margin-bottom: 18px;
+    }
+    .btn-div-allignment {
+        padding-bottom: 22px;
+        float: right;
+        width: 100%;
+        height: 57px;
+        margin-top: -13px;
+    }
+
+
+    .btn-group-div{    height: 70px;
+        margin-top: -11px;}
+
+.btn-group-div1{padding: 29px 50px !important;
+    height: 509px;}
+.btn-group-div1 p{margin-bottom: 4px;
+    margin-top: 12px;}
+
+    .grid-3-height {
+        height: 509px;
+    }
+
+    .grid-style2{padding: 40px 34px}
+
+    .text-top-bottom-plus {
+        margin-top: -15px;
+        margin-bottom: 8px;
+    }
+
+    .hr-style2 {
+        margin-bottom: 18px;
+        margin-top: 16px;
+    }
+
+.btn-group-download-btn{padding: 0 34px;}

@@ -1,0 +1,25 @@
+.title-font-box1 .col-md-12 {
+    padding: 6px 0;
+    height: 63px;
+}
+
+.title-font-box .txt-line-height {
+    line-height: 42px;
+    padding-top: 48px;
+}
+
+.title-font-box .txt-line-height2 {
+    line-height: 31px;
+    border-right: 1px solid #ebebeb;
+    padding-top: 53px;
+}
+
+.title-font-box1 .download-btn-div1{top: 57px;
+    width: 163px;
+    left: 13px;}
+
+    .list-allingment1{line-height: 33px;}
+    .mat-button, .mat-flat-button, .mat-icon-button, .mat-stroked-button {
+        border-radius: 50px;
+        
+    }

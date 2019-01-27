@@ -1,0 +1,119 @@
+<div class="main-header">
+  <div class="container header-container">
+    <div class="row">
+      <div class="col-md-2 top-logo-div"><img src="src/assets/images/dp-logo.png" class="top-logo"></div>
+      <div class="header-search-div">
+        <div id="custom-search-input" class="search-style">
+          <div class="input-group col-md-12 "> <span class="input-group-btn">
+              <button mat-icon-button  color="primary">
+                  <mat-icon aria-label="Example icon-button with a heart icon">search</mat-icon>
+              </button>
+              
+            <!-- <button class="btn btn-danger" type="button"> <i class="material-icons">search</i> </button> -->
+            </span>
+            <mat-form-field [class.app-input-no-underline]="!showUnderline" class="search-input-allignment">
+
+              <input matInput placeholder="بإمكانك الكتابة لبدء البحث " class="search-query form-control">
+               
+            </mat-form-field>
+            <!-- <input type="text" class="  search-query form-control" placeholder="بإمكانك الكتابة لبدء البحث " /> -->
+          </div>
+        </div>
+      </div>
+      <div class="header-left-widgets">
+        <div class="date-time-div">
+          <div class="btn-group">
+            <!-- <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
+             </button>
+            <div class="dropdown-menu dropdown-menu-right top-notification-div wow fadeInLeft wHighlight" data-wow-delay=".10s" >  </div> -->
+            <button mat-button [matMenuTriggerFor]="menu" class="date-time-btn">
+              <i class="material-icons btn btn-secondary ">query_builder</i>
+              <time id="time"></time>
+              <button mat-icon-button class="arrow-btn">
+                  <mat-icon >arrow_drop_down</mat-icon>
+                </button>
+              </button>
+                <mat-menu #menu="matMenu" >
+                  <button mat-menu-item>Item 1</button>
+                  <button mat-menu-item>Item 2</button>
+                </mat-menu>
+          </div>
+        </div>
+        <div class="user-div">
+          <div class="btn-group">
+            <!-- <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <div class="notification-bg1"></div>
+            <img src="src/assets/images/user-img.png" class="user-image">
+            <div class="user-name-div">
+              <p>صباح الخير <br>
+                <span> سامي</span></p>
+            </div>
+            <span class="caret"></span> </button> -->
+            <button mat-button [matMenuTriggerFor]="menu1">
+                <mat-icon svgIcon="thumbs-up"></mat-icon>
+                <div class="notification-bg1"></div>
+            <img src="src/assets/images/user-img.png" class="user-image">
+            <div class="user-name-div">
+              <p>صباح الخير <br>
+                <span> سامي</span></p>
+            </div>
+            <button mat-icon-button class="arrow-btn2">
+                <mat-icon >arrow_drop_down</mat-icon>
+              </button>
+                </button>
+                  <mat-menu #menu1="matMenu" >
+                    <button mat-menu-item>Item 1</button>
+                    <button mat-menu-item>Item 2</button>
+                  </mat-menu>
+           <!-- <div class="dropdown-menu dropdown-menu-right top-notification-div2 wow fadeInLeft wHighlight" data-wow-delay=".10s" > </div> -->
+          </div>
+        </div>
+        <div class="header-icon-div">
+         
+              <button mat-icon-button matTooltip="notifications" matTooltipPosition="above"   [matMenuTriggerFor]="notifications" class="notification-btn">
+                  <mat-icon>notifications</mat-icon>
+                </button>
+                <mat-menu #notifications="matMenu">
+                    <button mat-menu-item>
+                      <mat-icon>dialpad</mat-icon>
+                      <span>Redial</span>
+                    </button>
+                    <button mat-menu-item disabled>
+                      <mat-icon>voicemail</mat-icon>
+                      <span>Check voicemail</span>
+                    </button>
+                    <button mat-menu-item>
+                      <mat-icon>notifications_off</mat-icon>
+                      <span>Disable alerts</span>
+                    </button>
+                  </mat-menu> 
+
+
+                <button mat-icon-button matTooltip="apps" [matMenuTriggerFor]="apps" matTooltipPosition="above" class="apps-btn">
+                    <mat-icon>apps</mat-icon>
+                  </button>
+                  <mat-menu #apps="matMenu">
+                      <button mat-menu-item>
+                        <mat-icon>dialpad</mat-icon>
+                        <span>Redial</span>
+                      </button>
+                      <button mat-menu-item disabled>
+                        <mat-icon>voicemail</mat-icon>
+                        <span>Check voicemail</span>
+                      </button>
+                      <button mat-menu-item>
+                        <mat-icon>notifications_off</mat-icon>
+                        <span>Disable alerts</span>
+                      </button>
+                    </mat-menu>
+ 
+                  <button mat-icon-button matTooltip="fullscreen" matTooltipPosition="above"   class="fullscreen-btn">
+                      <mat-icon>fullscreen</mat-icon>
+                    </button>  
+                    
+                     
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

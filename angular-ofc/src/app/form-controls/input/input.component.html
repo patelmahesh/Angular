@@ -1,0 +1,91 @@
+<div class="modules-div page-3">
+  <h1 class="bukra-bold wow fadeInUp wHighlight"  data-wow-delay=".35s">أزرار بأحجام مختلفة&nbsp;<span class="regular-1 head-sub-style">جميع الاحجام والحالات المقترح استخدامها بدون أيقونات</span></h1>
+  <div class="grid-style2 div-1 left-margin grid-2-height wow fadeInUp wHighlight"  data-wow-delay=".35s">
+    <div class="row btn-div-allignment2">
+        <div class="col-md-12">
+            <h5 class="bukra-bold">النموذج الافتراضي</h5>
+          </div>
+      <div class="col-md-12">
+         
+          <form class="example-form">
+              <mat-form-field class="example-full-width">
+                <input matInput placeholder="نص إدخال التسمية" value="نص العنصر النائب">
+              </mat-form-field>
+            
+              <mat-form-field class="example-full-width">
+                  <input matInput placeholder="تسمية منطقة النص" value="نص العنصر النائب">
+                </mat-form-field>
+                
+                    <mat-form-field class="example-full-width">
+                        <mat-select [(value)]="selected" placeholder="حدد التسمية">
+                          <mat-option>None</mat-option>
+                          <mat-option value="option1">Option 1</mat-option>
+                          <mat-option value="option2">Option 2</mat-option>
+                          <mat-option value="option3">Option 3</mat-option>
+                        </mat-select>
+                      </mat-form-field>
+                    
+                    
+                      <mat-form-field class="example-full-width">
+                        <input matInput placeholder="نص إدخال التسمية" required [formControl]="emailFormControl"
+                               [errorStateMatcher]="matcher">
+                        <mat-hint>نص العنصر النائب</mat-hint>
+                        
+                        <mat-error *ngIf="emailFormControl.hasError('required')">
+                          نص العنصر النائب<strong>required</strong>
+                        </mat-error>
+                      </mat-form-field>
+                     
+                 
+                      <mat-form-field class="example-full-width">
+                          <input matInput placeholder="حدد تاريخ" [matDatepicker]="picker" (focus)="picker.open()" readonly>
+                      </mat-form-field>
+                      <mat-datepicker #picker></mat-datepicker>
+                      <div class="modal-btn-fullw-div">
+                          <button mat-button class="btn dp-button-success modal-btn-padding ">خضع</button> 
+                          <button mat-button class="btn dp-button-secondary-border modal-btn-padding color-2">إلغاء</button>
+                     </div>
+            </form>
+    </div>
+  </div>
+    
+     
+  </div>
+  <div class="grid-style2 div-1 grid-2-height wow fadeInUp wHighlight "  data-wow-delay=".35s">
+    <div class="row btn-div-allignment3">
+        <div class="col-md-12">
+            <div class="col-md-12">
+                <h5 class="bukra-bold">النموذج الافتراضي</h5>
+              </div>
+            <form class="example-form">
+                <mat-form-field class="example-full-width">
+                  <input matInput placeholder="اسم المستخدم" value="نص العنصر النائب">
+                </mat-form-field>
+              
+                <mat-form-field class="example-full-width">
+                    <input matInput type="password" placeholder="حقل كلمة المرور" value="Sushi">
+                  </mat-form-field>
+                  
+                      
+                
+                    <mat-datepicker #picker></mat-datepicker>
+                    <div class="modal-btn-fullw-div">
+                        <button mat-button class="btn dp-button-success modal-btn-padding ">تسجيل الدخول</button> 
+                        <mat-checkbox>تذكر كلمة المرور</mat-checkbox>
+                   </div>
+                   <a mat-button routerLink=".">هل نسيت كلمة المرور؟</a>
+              </form>
+              
+               
+           
+      </div>
+      
+      </div>
+      
+      
+       
+    </div>
+     
+     
+    
+  </div>  

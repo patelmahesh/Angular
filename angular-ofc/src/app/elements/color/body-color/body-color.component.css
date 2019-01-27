@@ -1,0 +1,18 @@
+.color-palatte-space .material-icons{font-size: 54px;}
+
+.color-palatte-space {
+    padding-bottom: 9px;
+    height: 74px;
+    padding-top: 13px;
+}
+
+.color-palatte-div .material-icons{font-size:60px;}
+.color-palatte-top { top: 22px;
+}
+
+.color-palatte-height3{height: 263px;
+    margin-top: 14px;}
+    .mat-button, .mat-flat-button, .mat-icon-button, .mat-stroked-button {
+        border-radius: 50px;
+        
+    }

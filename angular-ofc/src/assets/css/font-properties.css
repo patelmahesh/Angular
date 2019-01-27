@@ -1,0 +1,241 @@
+@charset "utf-8";
+.color-6, .color-8, .color-9 {
+	text-shadow: -1px 0 #d4d4d4, 0 1px #d4d4d4, 1px 0 #d4d4d4, 0 -1px #d4d4d4
+}
+.font-dubai-light {
+	font-family: DubaiLight
+}
+.font-dubai-bold {
+	font-family: DubaiBold
+}
+.font-dubai-medium {
+	font-family: DubaiMedium
+}
+.font-dubai-regular {
+	font-family: DubaiRegular
+}
+.bukra-bold {
+	font-family: bukrabold
+}
+.bukra-bold-italc {
+	font-family: bukrabolditalic
+}
+.bukra-regular {
+	font-family: bukraregular
+}
+.bukra-light {
+	font-family: bukralight
+}
+.font-dubai-size1 {
+	font-size: 9px
+}
+.font-dubai-size2 {
+	font-size: 10px
+}
+.font-dubai-size3 {
+	font-size: 11px
+}
+.font-dubai-size4 {
+	font-size: 12px
+}
+.font-dubai-size5 {
+	font-size: 14px
+}
+.font-dubai-size6 {
+	font-size: 17px
+}
+.font-dubai-size7 {
+	font-size: 18px
+}
+.font-dubai-size8 {
+	font-size: 20px
+}
+.font-dubai-size9 {
+	font-size: 22px
+}
+.font-dubai-size10 {
+	font-size: 25px
+}
+.font-dubai-size11 {
+	font-size: 30px
+}
+.font-dubai-size12 {
+	font-size: 35px
+}
+.font-dubai-size13 {
+	font-size: 40px
+}
+.font-dubai-size14 {
+	font-size: 45px
+}
+.font-dubai-size15 {
+	font-size: 60px
+}
+.font-dubai-size16 {
+	font-size: 42px
+}
+.font-dubai-size17 {
+	font-size: 36px
+}
+.font-dubai-size18 {
+	font-size: 32px
+}
+.font-dubai-size19 {
+	font-size: 24px
+}
+.font-dubai-size20 {
+	font-size: 16px
+}
+.font-dubai-size21 {
+	font-size: 8px
+}
+.font-dubai-size22 {
+	font-size: 53px
+}
+
+.font-dubai-size23 {
+	font-size: 15px
+}
+
+.text-underline {
+	text-decoration: underline
+}
+.white-color {
+	color: #fff
+}
+.color-1 {
+	color: #b7bcc2
+}
+.color-2 {
+	color: #555
+}
+.color-3, .color-4 {
+	color: #030000
+}
+.color-5 {
+	color: #868c93
+}
+.color-6 {
+	color: #fff
+}
+.color-7 {
+	color: #000
+}
+.color-8 {
+	color: #f2f4f8
+}
+.color-9 {
+	color: #f8f8f8
+}
+.black-white-1 {
+	color: #58585b;
+	text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff
+}
+.color-10 {
+	color: #dedede
+}
+.color-11 {
+	color: #9a9999
+}
+.green-color-1 {
+	color: #07c880
+}
+.green-color-2 {
+	color: #14ba7c
+}
+.green-color-3 {
+	color: #0da06e
+}
+.green-color-4 {
+	color: #00c7b1
+}
+.green-color-5 {
+	color: #005845
+}
+.green-color-6 {
+	color: #008755
+}
+.green-color-7 {
+	color: #278865
+}
+.green-color-8 {
+	color: #0da06e
+}
+.green-color-9 {
+	color: #2ecc71
+}
+.green-color-10 {
+	color: #00c7b1
+}
+.green-color-11 {
+	color: #0ba972
+}
+.green-color-12 {
+	color: #0ca26f
+}
+.red-color-1 {
+	color: #e74c3c
+}
+.yellow-color-1 {
+	color: #f0b323
+}
+.yellow-color-2 {
+	color: #fcb614
+}
+.yellow-color-3 {
+	color: #ffcd00
+}
+.yellow-color-4 {
+	color: #f1eb9c
+}
+.blue-color-1 {
+	color: #336888
+}
+.blue-color-2 {
+	color: #009eff
+}
+.blue-color-3 {
+	color: #59648c
+}
+.purple-color-1 {
+	color: #ba8be8
+}
+.opacity-style1 {
+	opacity: .6
+}
+.opacity-style2 {
+	opacity: .5
+}
+.opacity-style3 {
+	opacity: .4
+}
+.opacity-style4 {
+	opacity: .2
+}
+.text-bottom-top-padding {
+	margin-top: 0;
+	margin-bottom: 0
+}
+.text-bottom-margin {
+	margin-bottom: 10px
+}
+.icon-gradient-green {
+	color: rgba(7,199,129,1);
+	color: -moz-linear-gradient(top, rgba(7,199,129,1) 0, rgba(12,162,112,1) 100%);
+	color: -webkit-gradient(left top, left bottom, color-stop(0, rgba(7,199,129,1)), color-stop(100%, rgba(12,162,112,1)));
+	color: -webkit-linear-gradient(top, rgba(7,199,129,1) 0, rgba(12,162,112,1) 100%);
+	color: -o-linear-gradient(top, rgba(7,199,129,1) 0, rgba(12,162,112,1) 100%);
+	color: -ms-linear-gradient(top, rgba(7,199,129,1) 0, rgba(12,162,112,1) 100%);
+	color: linear-gradient(to bottom, rgba(7,199,129,1) 0, rgba(12,162,112,1) 100%);
+filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#07c781', endColorstr='#0ca270', GradientType=0 )
+}
+.icon-gradient-grey {
+	color: rgba(110,110,110,1);
+	color: -moz-linear-gradient(top, rgba(110,110,110,1) 0, rgba(110,110,110,1) 9%, rgba(153,153,153,1) 100%);
+	color: -webkit-gradient(left top, left bottom, color-stop(0, rgba(110,110,110,1)), color-stop(9%, rgba(110,110,110,1)), color-stop(100%, rgba(153,153,153,1)));
+	color: -webkit-linear-gradient(top, rgba(110,110,110,1) 0, rgba(110,110,110,1) 9%, rgba(153,153,153,1) 100%);
+	color: -o-linear-gradient(top, rgba(110,110,110,1) 0, rgba(110,110,110,1) 9%, rgba(153,153,153,1) 100%);
+	color: -ms-linear-gradient(top, rgba(110,110,110,1) 0, rgba(110,110,110,1) 9%, rgba(153,153,153,1) 100%);
+	color: linear-gradient(to bottom, rgba(110,110,110,1) 0, rgba(110,110,110,1) 9%, rgba(153,153,153,1) 100%);
+filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#6e6e6e', endColorstr='#999999', GradientType=0 )
+}

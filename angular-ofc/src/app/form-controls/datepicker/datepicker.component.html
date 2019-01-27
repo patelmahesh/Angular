@@ -1,0 +1,99 @@
+<div class="modules-div page-3">
+  <h1 class="bukra-bold">محددات التاريخ والتاريخ</h1>
+  <div class="clearfix"></div>
+  <br>
+  <div class="col-md-6">
+    <p class="color-11 font-dubai-size3 text-bottom-margin">نافذة التفاعل القياسية</p>
+    <div class="calendar-header">
+      <p class="t-date"></p>
+    </div>
+    <!-- <div id="app"></div> -->
+    <mat-form-field>
+        <input matInput [matDatepicker]="picker" placeholder="Choose a date">
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>
+     
+  </div>
+  <div class="col-md-4">
+    <p class="color-11 font-dubai-size3 text-bottom-margin">نافذة التفاعل القياسية</p>
+    <div class="calendar-header">
+      <p class="t-date"></p>
+    </div>
+    <div id="app2"></div>
+  </div>
+  <div class="col-md-2">
+    <div class="small-calendar-div">
+      <p class="color-11 font-dubai-size3 text-bottom-margin">نافذة التفاعل القياسية</p>
+      <div class="calendar-header">
+        <p class="t-date">Monday, 23 Jul</p>
+      </div>
+      <div class="date-display-div">
+        <h1>10</h1>
+        <p>Sunday</p>
+      </div>
+    </div>
+    
+  </div>
+  <div class="clearfix"></div>
+  <br>
+  <div class="col-md-6 div-padding">
+    <div class="col-md-6">
+      <div class="date-picker-div">
+        <input id="out3" placeholder="mm/dd/yy to mm/dd/yy" style="font-size: 14pt; width: 20em;" />
+        <span id="i3" class="material-icons">event</span>
+        <div id="ccc3" class="date-display"></div>
+        <mat-form-field>
+            <input matInput placeholder="mm/dd/yy to mm/dd/yy" style="font-size: 14pt; width: 20em;"  [matDatepicker]="picker1" placeholder="Choose a date">
+            <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+            <mat-datepicker #picker1></mat-datepicker>
+            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+          </mat-form-field>
+      
+      </div>
+      
+    </div>
+    <div class="col-md-6">
+      <div class="date-picker-div">
+        <input id="out2" placeholder="mm/dd/yy to mm/dd/yy" style="font-size: 14pt; width: 20em;" />
+        <span id="i2" class="material-icons">event</span>
+        <div id="ccc2" class="date-display"></div>
+      </div>
+    </div>
+    <div class="clearfix"></div>
+    <br>
+    <div class="col-md-12">
+      <div class="date-picker-div date-picker-2">
+        <input id="out" placeholder="mm/dd/yy to mm/dd/yy" style="font-size: 14pt; width: 20em;" />
+        <span id="i" class="material-icons">event</span>
+        <div id="ccc" class="date-display"></div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6 div-padding2">
+    <div class="col-md-6">
+      <div class="date-picker-div">
+        <input id="out3" placeholder="mm/dd/yy to mm/dd/yy" style="font-size: 14pt; width: 20em;" />
+        <span id="i3" class="material-icons">event</span>
+        <div id="ccc3" class="date-display"></div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="date-picker-div">
+        <input id="out2" placeholder="mm/dd/yy to mm/dd/yy" style="font-size: 14pt; width: 20em;" />
+        <span id="i2" class="material-icons">event</span>
+        <div id="ccc2" class="date-display"></div>
+      </div>
+    </div>
+    <div class="clearfix"></div>
+    <br>
+    <div class="col-md-12">
+      <div class="date-picker-div date-picker-2 grey-bg-calendar">
+        <input id="out4" placeholder="mm/dd/yy to mm/dd/yy" style="font-size: 14pt; width: 20em;" />
+        <span id="i4" class="material-icons">event</span>
+        <div id="ccc4" class="date-display"></div>
+      </div>
+    </div>
+  </div>
+</div>
