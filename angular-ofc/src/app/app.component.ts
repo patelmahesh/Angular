@@ -22,7 +22,7 @@ export class AppComponent {
     {name: 'Cat', sound: 'Meow!'},
     {name: 'Cow', sound: 'Moo!'},
     {name: 'Fox', sound: 'Wa-pa-pa-pa-pa-pa-pow!'},
-  ]; 
+  ];
 
   title = 'dsApp';
 
